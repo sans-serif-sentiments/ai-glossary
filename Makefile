@@ -73,3 +73,7 @@ github-push:
 	git add README.md Makefile scripts/enrich_related_terms.py site/docs site/mkdocs.yml data/terms .gitignore
 	git commit -m "$(MESSAGE)"
 	git push origin main
+.PHONY: check-links
+check-links: build
+	@command -v lychee >/dev/null 2>&1 || { echo "lychee CLI not found. Install with 'brew install lychee' or see https://github.com/lycheeverse/lychee/releases"; exit 1; }
+	lychee --config .lychee.toml --no-progress site/site_build

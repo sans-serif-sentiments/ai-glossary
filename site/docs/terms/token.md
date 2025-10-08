@@ -50,8 +50,8 @@ In language models a token is the discrete unit produced by a tokenizer before f
 
 ## Citations
 - [Wikipedia – Tokenization](https://en.wikipedia.org/wiki/Tokenization_(lexical_analysis))
-- [OpenAI API Reference](https://platform.openai.com/docs/api-reference/introduction)
-- [Hugging Face – Tokenizers Quicktour](https://huggingface.co/docs/tokenizers/python/latest/quicktour)
+- [OpenAI API Reference](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/prompt-engineering)
+- [Hugging Face – Tokenizers](https://huggingface.co/docs/tokenizers/en/quicktour)
 
 _License: CC BY-SA 4.0_
 

@@ -51,7 +51,7 @@ Privacy in AI systems focuses on controlling how personal or sensitive data is c
 
 ## Citations
 - [NIST AI RMF Glossary](https://www.nist.gov/itl/ai-risk-management-framework)
-- [OECD – Privacy Guidelines](https://www.oecd.org/digital/privacy/)
+- [OECD – Privacy Guidelines](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/)
 - [Wikipedia AI Glossary](https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence)
 
 _License: CC BY-SA 4.0_

@@ -52,8 +52,8 @@ An incident taxonomy defines the categories and severity levels used when loggin
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'incident taxonomy'.
 
 ## Citations
-- [Partnership on AI – Incident Sharing](https://www.partnershiponai.org/resources/ai-incident-sharing-framework)
-- [NIST AI RMF Playbook – Govern](https://www.nist.gov/itl/ai-risk-management-framework/ai-rmf-playbook)
+- [CISA – AI Cybersecurity Playbook](https://www.cisa.gov/resources-tools/resources/ai-cybersecurity-collaboration-playbook)
+- [AI Incident Database](https://incidentdatabase.ai/)
 
 _License: CC BY-SA 4.0_
 

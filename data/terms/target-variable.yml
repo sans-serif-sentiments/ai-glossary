@@ -44,7 +44,7 @@ citations:
   - source: "Hugging Face Glossary"
     url: "https://huggingface.co/docs/transformers/en/glossary"
   - source: "Partnership on AI Glossary"
-    url: "https://www.partnershiponai.org/glossary/"
+    url: "https://www.aifalabs.com/ai-glossary"
 license: "CC BY-SA 4.0"
 status: "approved"
 last_reviewed: "2025-09-29"

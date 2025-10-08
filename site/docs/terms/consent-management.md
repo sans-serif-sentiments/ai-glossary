@@ -52,8 +52,8 @@ Consent management ensures AI systems only process data in ways users or data su
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'consent management'.
 
 ## Citations
-- [OECD AI Glossary – Consent](https://oecd.ai/en/glossary/consent)
-- [Partnership on AI – Responsible Data Use](https://www.partnershiponai.org/resources/responsible-sourcing-of-data)
+- [Wikipedia – Data Minimisation](https://en.wikipedia.org/wiki/Data_minimization)
+- [ICO – Data Protection Guidance](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/)
 
 _License: CC BY-SA 4.0_
 

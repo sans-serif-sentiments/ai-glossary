@@ -53,9 +53,9 @@ AI assurance is the end-to-end discipline that gives stakeholders confidence an 
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'ai assurance'.
 
 ## Citations
-- [CDEI AI Assurance Guidance](https://www.gov.uk/government/publications/responsible-ai-assurance-toolkit)
-- [OECD AI Glossary](https://oecd.ai/en/glossary)
-- [Partnership on AI Glossary](https://www.partnershiponai.org/glossary/)
+- [arXiv – A Survey on AI Assurance](https://arxiv.org/abs/2111.07505)
+- [OECD AI Glossary](https://www.oecd.ai/)
+- [Partnership on AI Glossary](https://www.aifalabs.com/ai-glossary)
 
 _License: CC BY-SA 4.0_
 

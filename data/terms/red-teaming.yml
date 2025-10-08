@@ -37,10 +37,10 @@ relationships:
     - "alignment"
     - "incident response"
 citations:
-  - source: "CISA – Joint Guidance on AI Red Teaming"
-    url: "https://www.cisa.gov/resources-tools/resources/joint-guidance-promotes-ai-red-teaming"
+  - source: "CISA – AI Security Incident Response Guidelines"
+    url: "https://www.cisa.gov/resources-tools/resources/ai-cybersecurity-collaboration-playbook"
   - source: "OpenAI – Red Teaming Network"
-    url: "https://openai.com/research"
+    url: "https://learn.microsoft.com/en-us/security/ai-red-team/"
   - source: "Wikipedia – Red Team"
     url: "https://en.wikipedia.org/wiki/Red_team"
 license: "CC BY-SA 4.0"

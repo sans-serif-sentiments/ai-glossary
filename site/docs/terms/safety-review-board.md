@@ -52,9 +52,9 @@ A safety review board brings together policy, legal, security, product, and engi
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'safety review board'.
 
 ## Citations
-- [UK CDEI – Responsible AI Assurance Toolkit](https://www.gov.uk/government/publications/responsible-ai-assurance-toolkit/responsible-ai-assurance-toolkit)
+- [UK CDEI – Responsible AI Assurance Toolkit](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai)
 - [NIST AI RMF – Governance Function](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf)
-- [Partnership on AI – Safety-Critical AI Assurance](https://www.partnershiponai.org/resource/a-safety-critical-ai-assurance-framework/)
+- [Partnership on AI – Safety-Critical AI Assurance](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/)
 
 _License: CC BY-SA 4.0_
 

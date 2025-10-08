@@ -52,7 +52,7 @@ Gradient descent is the workhorse optimization routine behind many machine learn
 ## Citations
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)
 - [DeepLearning.AI Resources](https://www.deeplearning.ai/resources/)
-- [Hugging Face Course](https://huggingface.co/learn/deep-learning-course/unit5)
+- [Wikipedia – Gradient Descent](https://en.wikipedia.org/wiki/Gradient_descent)
 
 _License: CC BY-SA 4.0_
 

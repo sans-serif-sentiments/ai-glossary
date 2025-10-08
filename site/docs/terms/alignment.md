@@ -52,8 +52,8 @@ Alignment is the multidisciplinary effort to design AI systems whose goals, beha
 
 ## Citations
 - [Wikipedia – AI Alignment](https://en.wikipedia.org/wiki/AI_alignment)
-- [OpenAI – Learning from Human Preferences](https://openai.com/research/learning-from-human-preferences)
-- [Anthropic – Introducing Constitutional AI](https://www.anthropic.com/research/constitutional-ai)
+- [OpenAI – Learning from Human Preferences](https://arxiv.org/abs/1706.03741)
+- [Microsoft – Responsible AI Principles](https://www.microsoft.com/en-us/ai/principles-and-approach)
 
 _License: CC BY-SA 4.0_
 

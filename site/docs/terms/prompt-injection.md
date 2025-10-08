@@ -51,8 +51,8 @@ Prompt injection is an adversarial technique where attackers craft inputs that s
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'prompt injection'.
 
 ## Citations
-- [OWASP – Prompt Injection](https://owasp.org/www-community/attacks/Prompt_Injection)
-- [Microsoft – Secure Development Guidance for Prompt Injection](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/responsible-use)
+- [OWASP – LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+- [arXiv – Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection](https://arxiv.org/abs/2302.12173)
 - [Prompt Injection Attacks and Defenses](https://arxiv.org/abs/2307.15043)
 
 _License: CC BY-SA 4.0_

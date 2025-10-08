@@ -53,7 +53,7 @@ A risk register tracks every material risk an AI system poses, including potenti
 
 ## Citations
 - [NIST AI RMF – Risk Management Playbook](https://www.nist.gov/itl/ai-risk-management-framework/ai-rmf-playbook)
-- [World Economic Forum – How to Build an AI Risk Register](https://www.weforum.org/topics/artificial-intelligence)
+- [Microsoft – Responsible AI Risk Controls](https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/overview)
 
 _License: CC BY-SA 4.0_
 

@@ -38,8 +38,8 @@ relationships:
 citations:
   - source: "Google ML Crash Course"
     url: "https://developers.google.com/machine-learning/crash-course/glossary#loss"
-  - source: "Hugging Face Course"
-    url: "https://huggingface.co/learn/deep-learning-course/unit2"
+  - source: "Wikipedia – Loss Function"
+    url: "https://en.wikipedia.org/wiki/Loss_function"
   - source: "Machine Learning Mastery"
     url: "https://machinelearningmastery.com/loss-and-loss-functions/"
 license: "CC BY-SA 4.0"

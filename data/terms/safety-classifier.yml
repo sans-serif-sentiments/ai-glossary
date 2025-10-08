@@ -44,7 +44,7 @@ relationships:
     - "robust prompting"
 citations:
   - source: "OpenAI – Moderation Tools"
-    url: "https://openai.com/blog"
+    url: "https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/overview"
   - source: "Google Cloud – Content Safety Tools"
     url: "https://cloud.google.com/blog/products/ai-machine-learning/responsible-ai-toolkits-content-safety"
 license: "CC BY-SA 4.0"

@@ -1014,7 +1014,7 @@
 [0m[38;5;197m     [404][0m https://aws.amazon.com/machine-learning/glossary/ | Error (cached)
 [38;5;197m     [404][0m https://builtin.com/artificial-intelligence/glossary-artificial-intelligence | Error (cached)
 [38;5;197m     [404][0m https://python.langchain.com/v0.2/docs/guides/evaluation/overview | Error (cached)
-[38;5;197m     [404][0m https://www.anthropic.com/news/model-spec-for-ai-safety | Error (cached)
+[38;5;197m     [404][0m https://www.anthropic.com/news/model-spec-for-generative-ai-systems | Error (cached)
 [38;5;197m     [404][0m https://www.deeplearning.ai/glossary/ | Error (cached)
 [38;5;197m     [404][0m https://www.gov.uk/government/publications/office-for-artificial-intelligence-ai-playbook/ai-glossary | Error (cached)
 [38;5;197m     [403][0m https://www.weforum.org/agenda/2023/06/artificial-intelligence-glossary/ | Error (cached)
@@ -1033,7 +1033,7 @@
 
 [38;5;11m[1m[./site/site/site/terms/ai-incident-response/index.html]:
 [0m[38;5;197m     [404][0m https://www.cisa.gov/news-events/news/cisa-releases-artificial-intelligence-security-incident-response-guidelines | Error (cached)
-[38;5;197m     [404][0m https://www.cisecurity.org/insights/blog/developing-an-ai-incident-response-plan | Error (cached)
+[38;5;197m     [404][0m https://www.cisecurity.org/insights/white-papers/guide-to-developing-an-incident-response-plan | Error (cached)
 
 [38;5;11m[1m[./site/site/site/terms/algorithmic-bias/index.html]:
 [0m[38;5;197m     [404][0m https://www.brookings.edu/articles/understanding-algorithmic-bias/ | Error (cached)
@@ -1053,7 +1053,7 @@
 
 [38;5;11m[1m[./site/site/site/terms/constitutional-ai/index.html]:
 [0m[38;5;197m     [404][0m https://builtin.com/artificial-intelligence/glossary-artificial-intelligence | Error (cached)
-[38;5;197m     [404][0m https://www.anthropic.com/news/model-spec-for-ai-safety | Error (cached)
+[38;5;197m     [404][0m https://www.anthropic.com/news/model-spec-for-generative-ai-systems | Error (cached)
 [38;5;197m     [404][0m https://www.deeplearning.ai/glossary/ | Error (cached)
 
 [38;5;11m[1m[./site/site/site/terms/data-minimization/index.html]:
@@ -1073,7 +1073,7 @@
 [0m[38;5;197m     [404][0m https://fairlearn.org/v0.10/user_guide/assessment/metrics.html | Error (cached)
 
 [38;5;11m[1m[./site/site/site/terms/guardrail-policy/index.html]:
-[0m[38;5;197m     [404][0m https://www.anthropic.com/news/model-spec-for-ai-safety | Error (cached)
+[0m[38;5;197m     [404][0m https://www.anthropic.com/news/model-spec-for-generative-ai-systems | Error (cached)
 
 [38;5;11m[1m[./site/site/site/terms/human-handoff/index.html]:
 [0m[38;5;197m     [404][0m https://python.langchain.com/v0.2/docs/concepts/human_in_the_loop | Error (cached)
@@ -1089,7 +1089,7 @@
 [0m[38;5;197m     [404][0m https://www.anthropic.com/index/prompt-jailbreaks | Error (cached)
 
 [38;5;11m[1m[./site/site/site/terms/memory-strategy/index.html]:
-[0m[38;5;197m     [404][0m https://python.langchain.com/v0.2/docs/concepts/memory | Error (cached)
+[0m[38;5;197m     [404][0m https://python.langchain.com/docs/how_to/chatbots_memory | Error (cached)
 
 [38;5;11m[1m[./site/site/site/terms/ml-observability/index.html]:
 [0m[38;5;197m     [404][0m https://www.datadoghq.com/knowledge-center/ml-observability/ | Error (cached)
@@ -1101,7 +1101,7 @@
 [0m[38;5;197m     [404][0m https://www.anthropic.com/news/introducing-constitutional-ai | Error (cached)
 
 [38;5;11m[1m[./site/site/site/terms/privacy-budget/index.html]:
-[0m[38;5;197m     [404][0m https://www.nist.gov/privacy-framework/differential-privacy | Error (cached)
+[0m[38;5;197m     [404][0m https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/differential-privacy | Error (cached)
 
 [38;5;11m[1m[./site/site/site/terms/privacy-impact-assessment/index.html]:
 [0m[38;5;197m     [404][0m https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-impact-assessments-dpias/ | Error (cached)
@@ -1140,7 +1140,7 @@
 [38;5;197m     [404][0m https://www.partnershiponai.org/resource/a-safety-critical-ai-assurance-framework/ | Error (cached)
 
 [38;5;11m[1m[./site/site/site/terms/safety-spec/index.html]:
-[0m[38;5;197m     [404][0m https://www.anthropic.com/news/model-spec-for-ai-safety | Error (cached)
+[0m[38;5;197m     [404][0m https://www.anthropic.com/news/model-spec-for-generative-ai-systems | Error (cached)
 
 [38;5;11m[1m[./site/site/site/terms/self-consistency-decoding/index.html]:
 [0m[38;5;197m     [403][0m https://openai.com/research/better-language-models | Error (cached)

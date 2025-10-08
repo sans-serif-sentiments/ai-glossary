@@ -43,9 +43,9 @@ relationships:
     - "self-critique loop"
 citations:
   - source: "Prompting Guide – Defensive Prompting"
-    url: "https://www.promptingguide.ai/techniques/defensive-prompting"
-  - source: "Anthropic – Prompting for Safety"
-    url: "https://docs.anthropic.com/en/docs/build-with-claude/prompting-and-safety"
+    url: "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/content-filter-prompt-shields"
+  - source: "arXiv – InjecGuard: Benchmarking and Mitigating Over-defense in Prompt Injection Guardrail Models"
+    url: "https://arxiv.org/abs/2410.22770"
 license: "CC BY-SA 4.0"
 status: "approved"
 last_reviewed: "2025-09-29"

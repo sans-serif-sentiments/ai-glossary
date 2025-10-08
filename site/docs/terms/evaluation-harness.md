@@ -52,8 +52,8 @@ An evaluation harness packages datasets, prompts, grading logic, and reporting i
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'evaluation harness'.
 
 ## Citations
-- [LangChain Documentation – Evaluation](https://python.langchain.com/docs/guides/evaluation/overview)
-- [OpenAI Blog – Introducing OpenAI Evals](https://openai.com/blog)
+- [Microsoft – AI Red Team Guide](https://learn.microsoft.com/en-us/security/ai-red-team/)
+- [Wikipedia – Test Harness](https://en.wikipedia.org/wiki/Test_harness)
 
 _License: CC BY-SA 4.0_
 

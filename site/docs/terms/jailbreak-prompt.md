@@ -51,8 +51,8 @@ A jailbreak prompt is a deliberate attempt to bypass an AI system's guardrails. 
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'jailbreak prompt'.
 
 ## Citations
-- [Anthropic – Prompt Jailbreaks](https://www.anthropic.com/research/prompt-jailbreaks)
-- [OpenAI – Safety Best Practices](https://openai.com/resources/safety-best-practices-for-openai-apis)
+- [arXiv – Jailbreaking ChatGPT via Prompt Engineering: An Empirical Study](https://arxiv.org/abs/2305.13860)
+- [Microsoft – Content Filter & Prompt Shields](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/content-filter-prompt-shields)
 
 _License: CC BY-SA 4.0_
 

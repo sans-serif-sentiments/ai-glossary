@@ -52,7 +52,7 @@ The target variable is the reference output used to evaluate model predictions d
 ## Citations
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary#target)
 - [Hugging Face Glossary](https://huggingface.co/docs/transformers/en/glossary)
-- [Partnership on AI Glossary](https://www.partnershiponai.org/glossary/)
+- [Partnership on AI Glossary](https://www.aifalabs.com/ai-glossary)
 
 _License: CC BY-SA 4.0_
 

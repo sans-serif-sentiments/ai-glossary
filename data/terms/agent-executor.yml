@@ -43,7 +43,7 @@ relationships:
     - "ml ops"
 citations:
   - source: "LangChain Documentation – Agent Executors"
-    url: "https://python.langchain.com/docs/concepts/agent_executor"
+    url: "https://api.python.langchain.com/en/latest/langchain/agents.html"
   - source: "Anthropic Docs – Building Agentic Workflows"
     url: "https://docs.anthropic.com/claude/docs/agentic-workflows"
 license: "CC BY-SA 4.0"

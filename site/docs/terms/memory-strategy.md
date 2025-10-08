@@ -50,8 +50,8 @@ A memory strategy defines how an AI agent captures, retrieves, and expires conte
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'memory strategy'.
 
 ## Citations
-- [LangChain Documentation – Memory](https://python.langchain.com/docs/concepts/memory)
-- [Anthropic Docs – Building Agentic Workflows](https://docs.anthropic.com/en/docs/build-with-claude/agentic-workflows)
+- [LangChain Documentation – Memory](https://docs.langchain.com/docs/modules/memory)
+- [Constitutional AI (Anthropic)](https://arxiv.org/abs/2302.12173)
 
 _License: CC BY-SA 4.0_
 

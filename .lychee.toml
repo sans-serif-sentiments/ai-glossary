@@ -11,6 +11,8 @@ retry-count = 3
 method = "GET"
 user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
 
+insecure = true
+
 # Accept common success/redirect/ratelimit statuses
 accept = [200, 201, 202, 204, 206, 301, 302, 307, 308, 429, 999]
 
@@ -24,34 +26,46 @@ to   = "https://san-serif-sentiments.github.io/ai-glossary/$1$2"
 # Exclude external domains that block bots or rate-limit heavily
 exclude = [
   "https://github.com/san-serif-sentiments/ai-glossary/edit/.*",
-  "https://platform.openai.com/docs/.*",
+  "https://docs.anthropic.com/.*",
+  "https://www.anthropic.com/.*",
+  "https://anthropic.com/.*",
+  "https://platform.openai.com/.*",
   "https://help.openai.com/.*",
+  "https://openai.com/.*",
   "https://post.parliament.uk/.*",
-  "https://huggingface.co/docs/.*",
-  "https://huggingface.co/docs/tokenizers/.*",
-  "https://huggingface.co/learn/.*",
-  "https://www.weforum.org/.*",
+  "https://huggingface.co/.*",
+  "https://www.oecd.ai/.*",
+  "https://oecd.ai/.*",
   "https://www.oecd.org/.*",
   "https://www.ftc.gov/.*",
   "https://www.accessnow.org/.*",
   "https://www.partnershiponai.org/.*",
+  "https://partnershiponai.org/.*",
   "https://www.datadoghq.com/.*",
   "https://www.linkedin.com/.*",
   "https://aws.amazon.com/.*",
+  "https://docs.aws.amazon.com/.*",
   "https://builtin.com/.*",
   "https://python.langchain.com/.*",
-  "https://www.anthropic.com/.*",
   "https://www.deeplearning.ai/.*",
+  "https://deepchecks.com/.*",
   "https://www.gov.uk/.*",
   "https://learn.microsoft.com/.*",
+  "https://www.microsoft.com/.*",
+  "https://developers.google.com/.*",
+  "https://ico.org.uk/.*",
   "https://www.cisa.gov/.*",
   "https://www.cisecurity.org/.*",
   "https://www.brookings.edu/.*",
-  "https://openai.com/.*",
   "https://fairlearn.org/.*",
   "https://theodi.org/.*",
+  "https://www.nist.gov/.*",
   "https://www.cloudflare.com/.*",
-  "https://www.whitehouse.gov/.*"
+  "https://digital-strategy.ec.europa.eu/.*",
+  "https://openreview.net/.*",
+  "https://research.lib.buffalo.edu/.*",
+  "https://www.whitehouse.gov/.*",
+  "https://bidenwhitehouse.archives.gov/.*"
 ]
 
 ############################
@@ -59,5 +73,6 @@ exclude = [
 exclude_path = [
   "^\\.github/.*",
   ".*/assets/.*",
+  ".*/includes/related/.*",
   ".*/.*\\.(css|js|png|jpg|jpeg|svg|ico|gif)$"
 ]

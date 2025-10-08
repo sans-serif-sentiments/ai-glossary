@@ -51,7 +51,7 @@ Self-consistency decoding runs a model several times with chain-of-thought promp
 
 ## Citations
 - [Google – Self-Consistency Improves Chain of Thought](https://arxiv.org/abs/2203.11171)
-- [OpenAI – Better Language Models and Their Implications](https://openai.com/research/better-language-models)
+- [OpenAI – Better Language Models and Their Implications](https://arxiv.org/abs/2005.14165)
 
 _License: CC BY-SA 4.0_
 

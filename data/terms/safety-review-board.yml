@@ -43,11 +43,11 @@ relationships:
     - "impact mitigation plan"
 citations:
   - source: "UK CDEI – Responsible AI Assurance Toolkit"
-    url: "https://www.gov.uk/government/publications/responsible-ai-assurance-toolkit/responsible-ai-assurance-toolkit"
+    url: "https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai"
   - source: "NIST AI RMF – Governance Function"
     url: "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf"
   - source: "Partnership on AI – Safety-Critical AI Assurance"
-    url: "https://www.partnershiponai.org/resource/a-safety-critical-ai-assurance-framework/"
+    url: "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/"
 license: "CC BY-SA 4.0"
 status: "approved"
 last_reviewed: "2025-09-29"

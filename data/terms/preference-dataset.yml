@@ -44,8 +44,8 @@ relationships:
 citations:
   - source: "OpenAI – InstructGPT"
     url: "https://arxiv.org/abs/2203.02155"
-  - source: "Anthropic – Constitutional AI Data Collection"
-    url: "https://www.anthropic.com/research/constitutional-ai"
+  - source: "Microsoft – Responsible AI Principles"
+    url: "https://www.microsoft.com/en-us/ai/principles-and-approach"
 license: "CC BY-SA 4.0"
 status: "approved"
 last_reviewed: "2025-09-29"

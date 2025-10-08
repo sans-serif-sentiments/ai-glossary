@@ -51,9 +51,9 @@ Constitutional AI trains or steers language models with a "constitution"—expli
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'constitutional ai'.
 
 ## Citations
-- [Anthropic / Claude Glossary](https://www.anthropic.com/research/model-spec-for-ai-safety)
-- [DeepLearning.AI Resources](https://www.deeplearning.ai/resources/)
-- [Built In – AI Coverage](https://builtin.com/artificial-intelligence)
+- [Microsoft Responsible AI Overview](https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/overview)
+- [Deepchecks AI Glossary](https://cloud.google.com/docs/generative-ai/glossary)
+- [AI Glossary & Learning Hub](https://www.aifalabs.com/ai-glossary)
 
 _License: CC BY-SA 4.0_
 

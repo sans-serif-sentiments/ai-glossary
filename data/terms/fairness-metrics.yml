@@ -39,8 +39,8 @@ relationships:
 citations:
   - source: "NIST AI RMF Glossary"
     url: "https://www.nist.gov/itl/ai-risk-management-framework"
-  - source: "Fairlearn – Fairness Metrics Overview"
-    url: "https://fairlearn.org/main/user_guide/assessment/metrics.html"
+  - source: "Wikipedia – Fairness in Machine Learning"
+    url: "https://en.wikipedia.org/wiki/Fairness_(machine_learning)"
   - source: "Google ML Glossary"
     url: "https://developers.google.com/machine-learning/glossary"
 license: "CC BY-SA 4.0"

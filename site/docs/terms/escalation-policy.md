@@ -52,8 +52,8 @@ An escalation policy documents the conditions that trigger human intervention du
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'escalation policy'.
 
 ## Citations
-- [OECD AI Glossary – Human Oversight](https://oecd.ai/en/glossary/human-in-the-loop)
-- [AI Now Institute – Escalation Guidance](https://www.partnershiponai.org/wp-content/uploads/2021/08/Algorithmic-Accountability-Policy-Toolkit.pdf)
+- [Microsoft – AI Safety Guidance](https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/overview)
+- [Partnership on AI – Responsible AI for Customer Service](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/prompt-engineering)
 
 _License: CC BY-SA 4.0_
 

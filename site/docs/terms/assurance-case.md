@@ -51,8 +51,8 @@ An assurance case is a structured, evidence-backed argument that a system satisf
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'assurance case'.
 
 ## Citations
-- [OECD AI Glossary – Assurance Case](https://oecd.ai/en/glossary/details/assurance-case)
-- [Partnership on AI – Safety Critical AI Assurance](https://www.partnershiponai.org/resource/a-safety-critical-ai-assurance-framework/)
+- [OECD AI Glossary](https://www.oecd.ai/)
+- [Safety Case Overview](https://en.wikipedia.org/wiki/Safety_case)
 
 _License: CC BY-SA 4.0_
 

@@ -45,7 +45,7 @@ relationships:
     - "robust prompting"
 citations:
   - source: "OpenAI – Learning from Human Preferences"
-    url: "https://openai.com/research/learning-from-human-preferences"
+    url: "https://arxiv.org/abs/1706.03741"
   - source: "InstructGPT: Training Language Models to Follow Instructions"
     url: "https://arxiv.org/abs/2203.02155"
   - source: "Hugging Face – RLHF Guide"

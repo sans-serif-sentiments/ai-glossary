@@ -39,11 +39,11 @@ relationships:
     - "privacy"
 citations:
   - source: "OECD – AI Principles"
-    url: "https://oecd.ai/en/ai-principles"
+    url: "https://www.oecd.ai/policy"
   - source: "IBM – AI Ethics"
     url: "https://www.ibm.com/policy/ai-ethics/"
   - source: "White House – Blueprint for an AI Bill of Rights"
-    url: "https://www.whitehouse.gov/ostp/ai-bill-of-rights/"
+    url: "https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights/"
 license: "CC BY-SA 4.0"
 status: "approved"
 last_reviewed: "2025-09-29"

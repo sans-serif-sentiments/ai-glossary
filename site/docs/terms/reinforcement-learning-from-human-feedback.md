@@ -52,7 +52,7 @@ Reinforcement learning from human feedback (RLHF) trains a reward model on human
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'reinforcement learning from human feedback'.
 
 ## Citations
-- [OpenAI – Learning from Human Preferences](https://openai.com/research/learning-from-human-preferences)
+- [OpenAI – Learning from Human Preferences](https://arxiv.org/abs/1706.03741)
 - [InstructGPT: Training Language Models to Follow Instructions](https://arxiv.org/abs/2203.02155)
 - [Hugging Face – RLHF Guide](https://huggingface.co/blog/rlhf)
 

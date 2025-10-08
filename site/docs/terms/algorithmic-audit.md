@@ -55,7 +55,7 @@ An algorithmic audit is a structured examination of an AI system carried out by 
 ## Citations
 - [USENIX – Algorithmic Auditing 101](https://www.usenix.org/publications/loginonline/algorithmic-auditing-101)
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
-- [OECD AI Glossary](https://oecd.ai/en/glossary)
+- [OECD AI Glossary](https://www.oecd.ai/)
 
 _License: CC BY-SA 4.0_
 

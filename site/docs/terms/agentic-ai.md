@@ -50,7 +50,7 @@ Agentic AI describes architectures where models make decisions about what action
 
 ## Citations
 - [Stanford HAI – What Are Agentic AI Systems?](https://hai.stanford.edu/news/what-are-agentic-ai-systems)
-- [LangChain Concepts – Agents](https://python.langchain.com/docs/concepts/agents)
+- [LangChain Concepts – Agents](https://api.python.langchain.com/en/latest/langchain/agents.html)
 - [Generative Agents – Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)
 
 _License: CC BY-SA 4.0_

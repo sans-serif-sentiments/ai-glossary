@@ -51,9 +51,9 @@ Function calling bridges natural language prompts and executable tools. Develope
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'function calling'.
 
 ## Citations
-- [OpenAI Function Calling Guide](https://platform.openai.com/docs/guides/function-calling)
-- [LangChain Documentation Glossary](https://python.langchain.com/v0.2/docs/concepts)
-- [Hugging Face Glossary](https://huggingface.co/docs/transformers/en/glossary)
+- [Mistral Docs – Function Calling](https://docs.mistral.ai/capabilities/function_calling/)
+- [GitHub – OpenAI Cookbook: How to call functions with chat models](https://github.com/openai/openai-cookbook/blob/main/examples/How_to_call_functions_with_chat_models.ipynb)
+- [LangChain Documentation Glossary](https://python.langchain.com/docs/concepts)
 
 _License: CC BY-SA 4.0_
 
