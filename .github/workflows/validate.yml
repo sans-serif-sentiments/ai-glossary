@@ -47,6 +47,8 @@ jobs:
       # Check links in built HTML
       - name: Check links
         uses: lycheeverse/lychee-action@v2
+        env:
+          LYCHEE_GITHUB_TOKEN: ${{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}}
         with:
           config: .lychee.toml
           args: --no-progress site/site_build

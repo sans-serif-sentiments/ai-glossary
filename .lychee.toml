@@ -26,6 +26,7 @@ to   = "https://san-serif-sentiments.github.io/ai-glossary/$1$2"
 # Exclude external domains that block bots or rate-limit heavily
 exclude = [
   "https://github.com/san-serif-sentiments/ai-glossary/edit/.*",
+  "https://github.com/san-serif-sentiments/ai-glossary/blob/.*",
   "https://docs.anthropic.com/.*",
   "https://www.anthropic.com/.*",
   "https://anthropic.com/.*",
