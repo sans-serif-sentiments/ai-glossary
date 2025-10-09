@@ -36,7 +36,7 @@ You only need three tools installed once: Git, Python 3.10+, and Make.
 
 1. **Download the project**
    ```bash
-   git clone https://github.com/san-serif-sentiments/ai-glossary.git
+   git clone https://github.com/sans-serif-sentiments/ai-glossary.git
    cd ai-glossary
    ```
 2. **Create a safe sandbox for Python packages**

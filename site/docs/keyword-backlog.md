@@ -4,7 +4,7 @@ Purpose: keep our glossary focused on high-value, high-quality definitions while
 
 ## How to use this backlog
 - Start with the highest-priority items in each cluster; they map to common employee pain points gathered from support, sales, and policy teams.
-- Draft entries with the [term schema](https://github.com/san-serif-sentiments/ai-glossary/blob/main/schema/term.schema.json) so definitions stay consistent, cite at least two sources, and include audience guidance.
+- Draft entries with the [term schema](https://github.com/sans-serif-sentiments/ai-glossary/blob/main/schema/term.schema.json) so definitions stay consistent, cite at least two sources, and include audience guidance.
 - Use `make new-term NAME="your term"` to generate a scaffold that already meets schema requirements and reminds you to capture quality notes.
 - After drafting, run `make check` to validate schema, tests, and docs before opening a PR.
 - Pair with a reviewer from another function before publishing; readability and accessibility are part of the review.
