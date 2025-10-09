@@ -8,7 +8,7 @@
 **Categories:** Governance & Risk
 **Roles:** Legal & Compliance, Policy & Risk, Product & Program Managers, Security & Trust
 **Part of speech:** `concept`
-**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-09-29)
+**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-10-10)
 
 ## Role takeaways
 - **Legal & Compliance:** Assess contractual and regulatory obligations tied to this term.

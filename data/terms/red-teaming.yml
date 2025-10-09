@@ -1,48 +1,62 @@
-term: "red teaming"
+term: red teaming
 aliases:
-  - "ai red teaming"
-  - "adversarial testing"
+- ai red teaming
+- adversarial testing
 categories:
-  - "Governance & Risk"
-  - "Operations & Monitoring"
+- Governance & Risk
+- Operations & Monitoring
 roles:
-  - "communications"
-  - "engineering"
-  - "legal"
-  - "policy"
-  - "product"
-  - "security"
-part_of_speech: "process"
-short_def: "Deliberate stress testing that probes AI systems for harmful, biased, or policy-violating behavior."
-long_def: >-
-  Red teaming mobilizes interdisciplinary experts to craft adversarial prompts, scenarios, and data inputs that challenge an AI system’s safeguards. The goal is to uncover failure modes—such as unsafe content, confidential data leaks, or jailbreak exploits—before attackers or end users discover them. Exercises blend automated probing, scripted attack playbooks, and human creativity. Findings feed into remediation plans for guardrails, prompts, training data, or escalation policies. Product leaders schedule recurring red-team cycles for high-risk surfaces, while engineers build tooling to log attempts, reproduce issues, and verify fixes. Governance teams treat red teaming as part of risk management, requiring documentation of scope, participants, severity ratings, and follow-up actions. In many jurisdictions, regulators expect evidence that red teaming has been performed for sensitive deployments, making it a core component of responsible AI programs.
+- communications
+- engineering
+- legal
+- policy
+- product
+- security
+part_of_speech: process
+short_def: Deliberate stress testing that probes AI systems for harmful, biased, or
+  policy-violating behavior.
+long_def: Red teaming mobilizes interdisciplinary experts to craft adversarial prompts,
+  scenarios, and data inputs that challenge an AI system’s safeguards. The goal is
+  to uncover failure modes—such as unsafe content, confidential data leaks, or jailbreak
+  exploits—before attackers or end users discover them. Exercises blend automated
+  probing, scripted attack playbooks, and human creativity. Findings feed into remediation
+  plans for guardrails, prompts, training data, or escalation policies. Product leaders
+  schedule recurring red-team cycles for high-risk surfaces, while engineers build
+  tooling to log attempts, reproduce issues, and verify fixes. Governance teams treat
+  red teaming as part of risk management, requiring documentation of scope, participants,
+  severity ratings, and follow-up actions. In many jurisdictions, regulators expect
+  evidence that red teaming has been performed for sensitive deployments, making it
+  a core component of responsible AI programs.
 audiences:
-  exec: "Red teaming is the pre-launch fire drill that exposes how the AI could fail or be abused."
-  engineer: "Design adversarial prompts and automated probes, capture reproduction artifacts, and track mitigation work in the backlog."
+  exec: Red teaming is the pre-launch fire drill that exposes how the AI could fail
+    or be abused.
+  engineer: Design adversarial prompts and automated probes, capture reproduction
+    artifacts, and track mitigation work in the backlog.
 examples:
   do:
-    - "Incorporate marginalized community perspectives when designing red-team scenarios."
+  - Incorporate marginalized community perspectives when designing red-team scenarios.
   dont:
-    - "Close a red-team finding without documenting remediation owners and timelines."
+  - Close a red-team finding without documenting remediation owners and timelines.
 governance:
   nist_rmf_tags:
-    - "risk_management"
-    - "accountability"
-  risk_notes: "Skipping red teaming leaves blind spots that can result in public incidents or regulatory enforcement."
+  - risk_management
+  - accountability
+  risk_notes: Skipping red teaming leaves blind spots that can result in public incidents
+    or regulatory enforcement.
 relationships:
   broader:
-    - "evaluation"
+  - evaluation
   related:
-    - "guardrails"
-    - "alignment"
-    - "incident response"
+  - guardrails
+  - alignment
+  - incident response
 citations:
-  - source: "CISA – AI Security Incident Response Guidelines"
-    url: "https://www.cisa.gov/resources-tools/resources/ai-cybersecurity-collaboration-playbook"
-  - source: "OpenAI – Red Teaming Network"
-    url: "https://learn.microsoft.com/en-us/security/ai-red-team/"
-  - source: "Wikipedia – Red Team"
-    url: "https://en.wikipedia.org/wiki/Red_team"
-license: "CC BY-SA 4.0"
-status: "approved"
-last_reviewed: "2025-09-29"
+- source: CISA – AI Security Incident Response Guidelines
+  url: https://www.cisa.gov/resources-tools/resources/ai-cybersecurity-collaboration-playbook
+- source: OpenAI – Red Teaming Network
+  url: https://learn.microsoft.com/en-us/security/ai-red-team/
+- source: Wikipedia – Red Team
+  url: https://en.wikipedia.org/wiki/Red_team
+license: CC BY-SA 4.0
+status: approved
+last_reviewed: '2025-10-10'

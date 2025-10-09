@@ -8,7 +8,7 @@
 **Categories:** Governance & Risk
 **Roles:** Policy & Risk, Legal & Compliance, Product & Program Managers, Communications & Enablement, Engineering & Platform
 **Part of speech:** `process`
-**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-09-29)
+**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-10-10)
 
 ## Role takeaways
 - **Policy & Risk:** Map the definition to governance controls and review checklists.

@@ -9,6 +9,7 @@ Browse terms grouped by focus area. Categories align with navigation and search 
 ## Foundations
 Core machine learning concepts that underpin modern AI systems.
 
+- [activation function](terms/activation-function.md) — Data Science & Research, Engineering & Platform, Product & Program Managers
 - [bias-variance tradeoff](terms/bias-variance-tradeoff.md) — Data Science & Research, Engineering & Platform, Policy & Risk
 - [clip](terms/clip.md) — Engineering & Platform, Data Science & Research, Product & Program Managers, Communications & Enablement
 - [confusion matrix](terms/confusion-matrix.md) — Data Science & Research, Engineering & Platform, Product & Program Managers, Policy & Risk
@@ -75,6 +76,7 @@ Agent patterns, tool invocation, and orchestration strategies.
 - [function calling](terms/function-calling.md) — Engineering & Platform, Product & Program Managers, Data Science & Research
 - [human handoff](terms/human-handoff.md) — Product & Program Managers, Communications & Enablement, Engineering & Platform, Policy & Risk
 - [memory strategy](terms/memory-strategy.md) — Engineering & Platform, Product & Program Managers
+- [planner executor pattern](terms/planner-executor-pattern.md) — Product & Program Managers, Engineering & Platform, Security & Trust
 - [self-critique loop](terms/self-critique-loop.md) — Engineering & Platform, Product & Program Managers, Policy & Risk
 - [tool use](terms/tool-use.md) — Engineering & Platform, Product & Program Managers
 
@@ -100,6 +102,7 @@ Operational playbooks for running AI in production.
 - [ml observability](terms/ml-observability.md) — Engineering & Platform, Policy & Risk, Security & Trust
 - [ml ops](terms/ml-ops.md) — Engineering & Platform, Policy & Risk, Security & Trust
 - [model drift](terms/model-drift.md) — Communications & Enablement, Engineering & Platform, Legal & Compliance, Policy & Risk, Product & Program Managers, Security & Trust
+- [prompt registry](terms/prompt-registry.md) — Product & Program Managers, Engineering & Platform, Policy & Risk, Legal & Compliance
 - [shadow deployment](terms/shadow-deployment.md) — Engineering & Platform, Product & Program Managers, Policy & Risk, Security & Trust
 - [synthetic data evaluation](terms/synthetic-data-evaluation.md) — Data Science & Research, Engineering & Platform, Policy & Risk, Product & Program Managers
 

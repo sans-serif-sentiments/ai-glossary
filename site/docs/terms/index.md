@@ -4,8 +4,9 @@
 
 # Glossary Terms
 
-Total entries: 109
+Total entries: 112
 
+- [activation function](./activation-function.md) — Mathematical transformation applied to a neuron’s weighted sum that lets neural networks model nonlinear relationships and control signal range.
 - [agent executor](./agent-executor.md) — Controller layer that schedules planning, tool calls, and stop conditions so an AI agent completes tasks safely.
 - [agentic ai](./agentic-ai.md) — Systems that plan, act, and iterate with minimal human prompts by chaining model calls and tools.
 - [ai assurance](./ai-assurance.md) — Discipline that produces evidence, controls, and attestations showing an AI system meets agreed safety, compliance, and performance thresholds.
@@ -72,6 +73,7 @@ Total entries: 109
 - [model governance](./model-governance.md) — Policies and processes that manage AI models across risk, compliance, and lifecycle decisions.
 - [model interpretability](./model-interpretability.md) — Ability to explain how a model arrives at its predictions in ways stakeholders understand.
 - [overfitting](./overfitting.md) — When a model memorizes training data patterns so closely that it performs poorly on new samples.
+- [planner executor pattern](./planner-executor-pattern.md) — Agent design where one component plans multi-step work and another executes steps while feeding results back for re-planning.
 - [precision](./precision.md) — Share of predicted positives that are actually correct for a given classifier.
 - [preference dataset](./preference-dataset.md) — Labeled comparisons of model outputs that capture which responses humans prefer.
 - [privacy](./privacy.md) — Principle of limiting data collection, use, and exposure to protect individuals’ information.
@@ -79,6 +81,7 @@ Total entries: 109
 - [privacy impact assessment](./privacy-impact-assessment.md) — Structured review that evaluates how a system collects, uses, and safeguards personal data.
 - [prompt engineering](./prompt-engineering.md) — Crafting and testing prompts to steer model behavior toward desired outcomes.
 - [prompt injection](./prompt-injection.md) — Attack that inserts malicious instructions into model inputs to override original prompts or policies.
+- [prompt registry](./prompt-registry.md) — Central system that versions, reviews, and distributes approved prompts for LLM-powered experiences.
 - [quantization](./quantization.md) — Technique that compresses model weights into lower-precision formats to shrink size and speed inference.
 - [recall](./recall.md) — Share of actual positives a model successfully identifies.
 - [red teaming](./red-teaming.md) — Deliberate stress testing that probes AI systems for harmful, biased, or policy-violating behavior.

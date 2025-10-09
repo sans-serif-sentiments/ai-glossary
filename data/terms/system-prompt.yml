@@ -1,46 +1,61 @@
-term: "system prompt"
+term: system prompt
 aliases:
-  - "system instruction"
-  - "base prompt"
+- system instruction
+- base prompt
 categories:
-  - "LLM Core"
+- LLM Core
 roles:
-  - "data_science"
-  - "engineering"
-  - "product"
-part_of_speech: "noun_phrase"
-short_def: "Foundational instruction that sets role, tone, and guardrails for an AI assistant before user input."
-long_def: >-
-  A system prompt is the preamble sent to a conversational model before user messages to establish behavior, policies, and capabilities. It can describe persona, writing style, safety instructions, tool usage rules, or escalation paths. Because the system prompt is prepended to every conversation turn, it shapes how the model interprets later inputs and resolves conflicts between user requests and organizational policy. Product teams iterate on system prompts to balance friendliness with compliance, while engineers version and test them like code, running regression suites to detect unexpectedly permissive outputs. Governance reviewers treat system prompts as formal policy artifacts: they require approval, change tracking, and alignment with risk controls such as prohibited content lists. Poorly maintained system prompts can drift, accumulate contradictory clauses, or leak internal policies if exposed, so teams pair them with automated linting and secret scanning.
+- data_science
+- engineering
+- product
+part_of_speech: noun_phrase
+short_def: Foundational instruction that sets role, tone, and guardrails for an AI
+  assistant before user input.
+long_def: 'A system prompt is the preamble sent to a conversational model before user
+  messages to establish behavior, policies, and capabilities. It can describe persona,
+  writing style, safety instructions, tool usage rules, or escalation paths. Because
+  the system prompt is prepended to every conversation turn, it shapes how the model
+  interprets later inputs and resolves conflicts between user requests and organizational
+  policy. Product teams iterate on system prompts to balance friendliness with compliance,
+  while engineers version and test them like code, running regression suites to detect
+  unexpectedly permissive outputs. Governance reviewers treat system prompts as formal
+  policy artifacts: they require approval, change tracking, and alignment with risk
+  controls such as prohibited content lists. Poorly maintained system prompts can
+  drift, accumulate contradictory clauses, or leak internal policies if exposed, so
+  teams pair them with automated linting and secret scanning.'
 audiences:
-  exec: "Think of the system prompt as the playbook that keeps the assistant on-brand and on-policy before it ever talks to a user."
-  engineer: "Immutable prefix in the prompt stack that defines instructions and tool contracts; version-controlled for audits and evals."
+  exec: Think of the system prompt as the playbook that keeps the assistant on-brand
+    and on-policy before it ever talks to a user.
+  engineer: Immutable prefix in the prompt stack that defines instructions and tool
+    contracts; version-controlled for audits and evals.
 examples:
   do:
-    - "Store system prompts in source control and run evaluations whenever they change."
+  - Store system prompts in source control and run evaluations whenever they change.
   dont:
-    - "Embed sensitive credentials or private policies in the system prompt without access controls."
+  - Embed sensitive credentials or private policies in the system prompt without access
+    controls.
 governance:
   nist_rmf_tags:
-    - "transparency"
-    - "accountability"
-  risk_notes: "Unreviewed system prompts can encode unsafe behaviors or leak confidential policy guidance."
+  - transparency
+  - accountability
+  risk_notes: Unreviewed system prompts can encode unsafe behaviors or leak confidential
+    policy guidance.
 relationships:
   broader:
-    - "prompt engineering"
+  - prompt engineering
   narrower:
-    - "safety prompt"
+  - safety prompt
   related:
-    - "guardrails"
-    - "temperature"
-    - "tool use"
+  - guardrails
+  - temperature
+  - tool use
 citations:
-  - source: "Anthropic – System Prompts"
-    url: "https://docs.anthropic.com/en/docs/build-with-claude/system-prompts"
-  - source: "Microsoft – System Message Guidance"
-    url: "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/system-message"
-  - source: "Stanford HAI Brief Definitions"
-    url: "https://hai.stanford.edu/news/brief-definitions"
-license: "CC BY-SA 4.0"
-status: "approved"
-last_reviewed: "2025-09-29"
+- source: Anthropic – System Prompts
+  url: https://docs.anthropic.com/en/docs/build-with-claude/system-prompts
+- source: Microsoft – System Message Guidance
+  url: https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/system-message
+- source: Stanford HAI Brief Definitions
+  url: https://hai.stanford.edu/news/brief-definitions
+license: CC BY-SA 4.0
+status: approved
+last_reviewed: '2025-10-10'

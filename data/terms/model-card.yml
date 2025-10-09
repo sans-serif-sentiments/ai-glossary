@@ -1,49 +1,61 @@
-term: "model card"
+term: model card
 aliases:
-  - "model documentation"
-  - "model datasheet"
+- model documentation
+- model datasheet
 categories:
-  - "Governance & Risk"
-  - "Operations & Monitoring"
+- Governance & Risk
+- Operations & Monitoring
 roles:
-  - "policy"
-  - "legal"
-  - "product"
-  - "engineering"
-  - "communications"
-part_of_speech: "noun"
-short_def: "Standardized documentation describing a model’s purpose, data, performance, and limitations."
-long_def: >-
-  A model card summarizes key information about an AI system, including intended use, training data sources, evaluation results (overall and across subgroups), known limitations, safety mitigations, and contact points for escalation. Model cards support transparency, reproducibility, and compliance by giving stakeholders a shared reference that travels with each release. Product managers and engineers co-author model cards during the development lifecycle, updating them after retraining, prompt changes, or mitigation work. Policy, legal, and communications teams rely on model cards to inform disclosures, customer messaging, and regulatory filings. Mature organizations treat model cards as living documents stored in version control, with automated checks verifying that new releases update relevant sections.
+- policy
+- legal
+- product
+- engineering
+- communications
+part_of_speech: noun
+short_def: Standardized documentation describing a model’s purpose, data, performance,
+  and limitations.
+long_def: A model card summarizes key information about an AI system, including intended
+  use, training data sources, evaluation results (overall and across subgroups), known
+  limitations, safety mitigations, and contact points for escalation. Model cards
+  support transparency, reproducibility, and compliance by giving stakeholders a shared
+  reference that travels with each release. Product managers and engineers co-author
+  model cards during the development lifecycle, updating them after retraining, prompt
+  changes, or mitigation work. Policy, legal, and communications teams rely on model
+  cards to inform disclosures, customer messaging, and regulatory filings. Mature
+  organizations treat model cards as living documents stored in version control, with
+  automated checks verifying that new releases update relevant sections.
 audiences:
-  exec: "A model card is the product brief that explains what the AI is for, how it was built, and where it might misfire."
-  engineer: "Document data lineage, evaluation metrics, ethical considerations, and change history; keep cards versioned alongside code."
+  exec: A model card is the product brief that explains what the AI is for, how it
+    was built, and where it might misfire.
+  engineer: Document data lineage, evaluation metrics, ethical considerations, and
+    change history; keep cards versioned alongside code.
 examples:
   do:
-    - "Include subgroup metrics and fairness assessments in every model card."
-    - "Link to evaluation artifacts, incident history, and responsible AI approvals."
+  - Include subgroup metrics and fairness assessments in every model card.
+  - Link to evaluation artifacts, incident history, and responsible AI approvals.
   dont:
-    - "Publish a model without a card—reviewers and regulators will ask for it."
-    - "Let model cards go stale; update them whenever prompts or data shift."
+  - Publish a model without a card—reviewers and regulators will ask for it.
+  - Let model cards go stale; update them whenever prompts or data shift.
 governance:
   nist_rmf_tags:
-    - "documentation"
-    - "accountability"
-  risk_notes: "Missing or outdated model cards hinder audits and can delay approvals or trigger compliance findings."
+  - documentation
+  - accountability
+  risk_notes: Missing or outdated model cards hinder audits and can delay approvals
+    or trigger compliance findings.
 relationships:
   broader:
-    - "model governance"
+  - model governance
   related:
-    - "responsible ai"
-    - "privacy impact assessment"
-    - "evaluation"
+  - responsible ai
+  - privacy impact assessment
+  - evaluation
 citations:
-  - source: "NIST AI RMF Glossary"
-    url: "https://www.nist.gov/itl/ai-risk-management-framework"
-  - source: "Google – Model Cards for Model Reporting"
-    url: "https://modelcards.withgoogle.com/about"
-  - source: "Stanford HAI Brief Definitions"
-    url: "https://hai.stanford.edu/news/brief-definitions"
-license: "CC BY-SA 4.0"
-status: "approved"
-last_reviewed: "2025-09-29"
+- source: NIST AI RMF Glossary
+  url: https://www.nist.gov/itl/ai-risk-management-framework
+- source: Google – Model Cards for Model Reporting
+  url: https://modelcards.withgoogle.com/about
+- source: Stanford HAI Brief Definitions
+  url: https://hai.stanford.edu/news/brief-definitions
+license: CC BY-SA 4.0
+status: approved
+last_reviewed: '2025-10-10'

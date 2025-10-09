@@ -26,13 +26,14 @@ Focus on user outcomes, feature scope, and launch readiness.
 ### Focus areas
 - Governance & Risk (38 terms)
 - LLM Core (24 terms)
-- Foundations (20 terms)
-- Operations & Monitoring (15 terms)
-- Agents & Tooling (7 terms)
+- Foundations (21 terms)
+- Operations & Monitoring (16 terms)
+- Agents & Tooling (8 terms)
 - Retrieval & RAG (7 terms)
 - Optimization & Efficiency (2 terms)
 
 ### Recommended terms
+- [activation function](terms/activation-function.md) — Mathematical transformation applied to a neuron’s weighted sum that lets neural networks model nonlinear relationships and control signal range.
 - [agent executor](terms/agent-executor.md) — Controller layer that schedules planning, tool calls, and stop conditions so an AI agent completes tasks safely.
 - [agentic ai](terms/agentic-ai.md) — Systems that plan, act, and iterate with minimal human prompts by chaining model calls and tools.
 - [ai assurance](terms/ai-assurance.md) — Discipline that produces evidence, controls, and attestations showing an AI system meets agreed safety, compliance, and performance thresholds.
@@ -89,12 +90,14 @@ Focus on user outcomes, feature scope, and launch readiness.
 - [model governance](terms/model-governance.md) — Policies and processes that manage AI models across risk, compliance, and lifecycle decisions.
 - [model interpretability](terms/model-interpretability.md) — Ability to explain how a model arrives at its predictions in ways stakeholders understand.
 - [overfitting](terms/overfitting.md) — When a model memorizes training data patterns so closely that it performs poorly on new samples.
+- [planner executor pattern](terms/planner-executor-pattern.md) — Agent design where one component plans multi-step work and another executes steps while feeding results back for re-planning.
 - [precision](terms/precision.md) — Share of predicted positives that are actually correct for a given classifier.
 - [preference dataset](terms/preference-dataset.md) — Labeled comparisons of model outputs that capture which responses humans prefer.
 - [privacy](terms/privacy.md) — Principle of limiting data collection, use, and exposure to protect individuals’ information.
 - [privacy impact assessment](terms/privacy-impact-assessment.md) — Structured review that evaluates how a system collects, uses, and safeguards personal data.
 - [prompt engineering](terms/prompt-engineering.md) — Crafting and testing prompts to steer model behavior toward desired outcomes.
 - [prompt injection](terms/prompt-injection.md) — Attack that inserts malicious instructions into model inputs to override original prompts or policies.
+- [prompt registry](terms/prompt-registry.md) — Central system that versions, reviews, and distributes approved prompts for LLM-powered experiences.
 - [recall](terms/recall.md) — Share of actual positives a model successfully identifies.
 - [red teaming](terms/red-teaming.md) — Deliberate stress testing that probes AI systems for harmful, biased, or policy-violating behavior.
 - [regularization](terms/regularization.md) — Techniques that add penalties or constraints during training to reduce overfitting and improve generalisation.
@@ -149,13 +152,14 @@ Own model integration, infra, and technical debt.
 ### Focus areas
 - Governance & Risk (29 terms)
 - LLM Core (26 terms)
-- Foundations (19 terms)
-- Operations & Monitoring (18 terms)
-- Agents & Tooling (7 terms)
+- Foundations (20 terms)
+- Operations & Monitoring (19 terms)
+- Agents & Tooling (8 terms)
 - Retrieval & RAG (7 terms)
 - Optimization & Efficiency (6 terms)
 
 ### Recommended terms
+- [activation function](terms/activation-function.md) — Mathematical transformation applied to a neuron’s weighted sum that lets neural networks model nonlinear relationships and control signal range.
 - [agent executor](terms/agent-executor.md) — Controller layer that schedules planning, tool calls, and stop conditions so an AI agent completes tasks safely.
 - [agentic ai](terms/agentic-ai.md) — Systems that plan, act, and iterate with minimal human prompts by chaining model calls and tools.
 - [ai assurance](terms/ai-assurance.md) — Discipline that produces evidence, controls, and attestations showing an AI system meets agreed safety, compliance, and performance thresholds.
@@ -214,11 +218,13 @@ Own model integration, infra, and technical debt.
 - [model drift](terms/model-drift.md) — Gradual mismatch between model assumptions and real-world data that degrades performance over time.
 - [model interpretability](terms/model-interpretability.md) — Ability to explain how a model arrives at its predictions in ways stakeholders understand.
 - [overfitting](terms/overfitting.md) — When a model memorizes training data patterns so closely that it performs poorly on new samples.
+- [planner executor pattern](terms/planner-executor-pattern.md) — Agent design where one component plans multi-step work and another executes steps while feeding results back for re-planning.
 - [precision](terms/precision.md) — Share of predicted positives that are actually correct for a given classifier.
 - [preference dataset](terms/preference-dataset.md) — Labeled comparisons of model outputs that capture which responses humans prefer.
 - [privacy budget](terms/privacy-budget.md) — Quantitative limit on how much privacy loss is allowed when applying differential privacy.
 - [prompt engineering](terms/prompt-engineering.md) — Crafting and testing prompts to steer model behavior toward desired outcomes.
 - [prompt injection](terms/prompt-injection.md) — Attack that inserts malicious instructions into model inputs to override original prompts or policies.
+- [prompt registry](terms/prompt-registry.md) — Central system that versions, reviews, and distributes approved prompts for LLM-powered experiences.
 - [quantization](terms/quantization.md) — Technique that compresses model weights into lower-precision formats to shrink size and speed inference.
 - [recall](terms/recall.md) — Share of actual positives a model successfully identifies.
 - [red teaming](terms/red-teaming.md) — Deliberate stress testing that probes AI systems for harmful, biased, or policy-violating behavior.
@@ -271,7 +277,7 @@ Drive experimentation, measurement, and model improvement.
 
 ### Focus areas
 - LLM Core (23 terms)
-- Foundations (19 terms)
+- Foundations (20 terms)
 - Retrieval & RAG (7 terms)
 - Optimization & Efficiency (6 terms)
 - Governance & Risk (5 terms)
@@ -279,6 +285,7 @@ Drive experimentation, measurement, and model improvement.
 - Agents & Tooling (1 term)
 
 ### Recommended terms
+- [activation function](terms/activation-function.md) — Mathematical transformation applied to a neuron’s weighted sum that lets neural networks model nonlinear relationships and control signal range.
 - [attention](terms/attention.md) — Technique enabling models to weight input tokens differently when producing each output.
 - [beam search](terms/beam-search.md) — Deterministic decoding that keeps the top scoring sequences across multiple beams before selecting the final output.
 - [bias-variance tradeoff](terms/bias-variance-tradeoff.md) — Balance between underfitting and overfitting: low bias increases variance, while high bias lowers variance but misses patterns.
@@ -358,7 +365,7 @@ Ensure responsible AI controls align with governance frameworks.
 
 ### Focus areas
 - Governance & Risk (40 terms)
-- Operations & Monitoring (17 terms)
+- Operations & Monitoring (18 terms)
 - Foundations (7 terms)
 - LLM Core (6 terms)
 - Agents & Tooling (2 terms)
@@ -408,6 +415,7 @@ Ensure responsible AI controls align with governance frameworks.
 - [privacy](terms/privacy.md) — Principle of limiting data collection, use, and exposure to protect individuals’ information.
 - [privacy budget](terms/privacy-budget.md) — Quantitative limit on how much privacy loss is allowed when applying differential privacy.
 - [privacy impact assessment](terms/privacy-impact-assessment.md) — Structured review that evaluates how a system collects, uses, and safeguards personal data.
+- [prompt registry](terms/prompt-registry.md) — Central system that versions, reviews, and distributes approved prompts for LLM-powered experiences.
 - [recall](terms/recall.md) — Share of actual positives a model successfully identifies.
 - [red teaming](terms/red-teaming.md) — Deliberate stress testing that probes AI systems for harmful, biased, or policy-violating behavior.
 - [reinforcement learning from human feedback](terms/reinforcement-learning-from-human-feedback.md) — Training approach that tunes a model using reward signals learned from human preference data.
@@ -445,7 +453,7 @@ Evaluate regulatory exposure, contracts, and IP concerns.
 
 ### Focus areas
 - Governance & Risk (31 terms)
-- Operations & Monitoring (8 terms)
+- Operations & Monitoring (9 terms)
 - Foundations (1 term)
 - LLM Core (1 term)
 
@@ -476,6 +484,7 @@ Evaluate regulatory exposure, contracts, and IP concerns.
 - [privacy](terms/privacy.md) — Principle of limiting data collection, use, and exposure to protect individuals’ information.
 - [privacy budget](terms/privacy-budget.md) — Quantitative limit on how much privacy loss is allowed when applying differential privacy.
 - [privacy impact assessment](terms/privacy-impact-assessment.md) — Structured review that evaluates how a system collects, uses, and safeguards personal data.
+- [prompt registry](terms/prompt-registry.md) — Central system that versions, reviews, and distributes approved prompts for LLM-powered experiences.
 - [red teaming](terms/red-teaming.md) — Deliberate stress testing that probes AI systems for harmful, biased, or policy-violating behavior.
 - [responsible ai](terms/responsible-ai.md) — Frameworks and practices that ensure AI systems are safe, fair, and aligned with ethical and legal expectations.
 - [risk register](terms/risk-register.md) — Central list of identified AI risks, their owners, mitigations, and review status.
@@ -504,6 +513,7 @@ Safeguard data, access, and abuse prevention.
 - Governance & Risk (21 terms)
 - Operations & Monitoring (11 terms)
 - LLM Core (2 terms)
+- Agents & Tooling (1 term)
 - Foundations (1 term)
 - Retrieval & RAG (1 term)
 
@@ -525,6 +535,7 @@ Safeguard data, access, and abuse prevention.
 - [ml observability](terms/ml-observability.md) — Practices and tooling that surface model health through metrics, traces, and alerts across the lifecycle.
 - [ml ops](terms/ml-ops.md) — Operational discipline that manages ML models from experimentation through deployment and monitoring.
 - [model drift](terms/model-drift.md) — Gradual mismatch between model assumptions and real-world data that degrades performance over time.
+- [planner executor pattern](terms/planner-executor-pattern.md) — Agent design where one component plans multi-step work and another executes steps while feeding results back for re-planning.
 - [privacy impact assessment](terms/privacy-impact-assessment.md) — Structured review that evaluates how a system collects, uses, and safeguards personal data.
 - [prompt injection](terms/prompt-injection.md) — Attack that inserts malicious instructions into model inputs to override original prompts or policies.
 - [red teaming](terms/red-teaming.md) — Deliberate stress testing that probes AI systems for harmful, biased, or policy-violating behavior.

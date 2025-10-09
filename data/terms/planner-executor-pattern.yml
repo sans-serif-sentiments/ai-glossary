@@ -1,0 +1,41 @@
+term: "planner executor pattern"
+aliases:
+  - "plan-and-execute architecture"
+categories:
+  - "Agents & Tooling"
+roles:
+  - "product"
+  - "engineering"
+  - "security"
+part_of_speech: "concept"
+short_def: "Agent design where one component plans multi-step work and another executes steps while feeding results back for re-planning."
+long_def: >-
+  The planner–executor pattern splits an AI agent into two cooperating loops. A planner reasons about the goal, drafts a sequence of actions, and updates the plan as new information arrives. An executor carries out each step—making tool calls, retrieving knowledge, or asking humans for input—and returns observations that let the planner adjust course. The separation keeps reasoning focused and prevents runaway tool use because every action must fit an explicit plan. Product managers use the pattern to support auditable workflows: the plan provides a human-readable trail of intent, while the executor implements it deterministically. Engineers instrument both sides with guardrails—rate limits, cost budgets, policy checks—and persist the plan and transcripts for debugging. Security or governance teams review planning prompts, escalation triggers, and stop conditions to avoid infinite loops or unsafe actions. When the pattern is implemented well, organisations gain reliability over single-shot agents, along with clear hooks for human approval and monitoring dashboards.
+audiences:
+  exec: "Highlights how autonomy can scale without losing observability—plans create a paper trail for compliance and customer trust."
+  engineer: "Implement planners that decompose goals, enforce tool policies, and log decisions so incidents can be replayed."
+examples:
+  do:
+    - "Store every plan revision and executed step in an audit log so reviewers can trace why the agent called a given tool."
+  dont:
+    - "Let the executor improvise extra tool calls that were not authorised by the current plan."
+governance:
+  nist_rmf_tags:
+    - "accountability"
+    - "monitoring"
+  risk_notes: "Missing plan logs or uncontrolled executors make it impossible to prove what the agent intended to do, complicating incident response."
+relationships:
+  broader:
+    - "agentic ai"
+  related:
+    - "tool calling"
+    - "memory strategy"
+    - "red teaming"
+citations:
+  - source: "LangChain – Plan and Execute Agents"
+    url: "https://blog.langchain.com/plan-and-execute-agents/"
+  - source: "ReAct: Synergizing Reasoning and Acting in Language Models"
+    url: "https://arxiv.org/abs/2210.03629"
+license: "CC BY-SA 4.0"
+status: "approved"
+last_reviewed: "2025-10-10"

@@ -66,7 +66,10 @@ exclude = [
   "https://openreview.net/.*",
   "https://research.lib.buffalo.edu/.*",
   "https://www.whitehouse.gov/.*",
-  "https://bidenwhitehouse.archives.gov/.*"
+  "https://bidenwhitehouse.archives.gov/.*",
+  '''https://san-serif-sentiments.github.io/ai-glossary/terms/activation-function/.*''',
+  '''https://san-serif-sentiments.github.io/ai-glossary/terms/planner-executor-pattern/.*''',
+  '''https://san-serif-sentiments.github.io/ai-glossary/terms/prompt-registry/.*'''
 ]
 
 ############################

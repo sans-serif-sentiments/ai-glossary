@@ -1,16 +1,16 @@
 # Governance Dashboard
 
-_Updated: 2024-11-26_
+_Updated: 2025-10-10_
 
 This page consolidates governance-oriented glossary content so compliance, policy, legal,
 and risk teams can quickly assess coverage, discover gaps, and coordinate actions.
 
-## Snapshot metrics (Nov 26 2024)
+## Snapshot metrics (Oct 10 2025)
 
-- **Total glossary entries:** 65 (all currently in draft status)
-- **Top categories:** Governance & Risk (25), LLM Core (18), Operations & Monitoring (13)
-- **Most represented roles:** Product (57 terms), Engineering (54), Data Science (38)
-- **Newly added terms:** [algorithmic impact assessment](terms/algorithmic-impact-assessment.md), [constitutional ai](terms/constitutional-ai.md), [function calling](terms/function-calling.md)
+- **Total glossary entries:** 112 (all currently approved)
+- **Top categories:** Governance & Risk (42), LLM Core (26), Operations & Monitoring (19)
+- **Most represented roles:** Product (98 terms), Engineering (98), Policy & Data Science (60 each)
+- **Recently added governance terms:** [prompt registry](terms/prompt-registry.md), [planner executor pattern](terms/planner-executor-pattern.md), [activation function](terms/activation-function.md)
 
 ## NIST RMF coverage by tag
 

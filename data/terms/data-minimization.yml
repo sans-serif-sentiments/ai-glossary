@@ -1,47 +1,59 @@
-term: "data minimization"
+term: data minimization
 aliases:
-  - "data minimisation"
-  - "minimal data collection"
+- data minimisation
+- minimal data collection
 categories:
-  - "Governance & Risk"
+- Governance & Risk
 roles:
-  - "legal"
-  - "policy"
-  - "product"
-  - "security"
-part_of_speech: "concept"
-short_def: "Principle of collecting and retaining only the data necessary for a defined purpose."
-long_def: >-
-  Data minimization limits the amount and duration of personal data collected, processed, or stored. Regulations such as GDPR and CCPA mandate this principle so organizations cannot hoard information “just in case.” In AI projects, minimization applies to training datasets, prompt logs, telemetry, and derived embeddings. Product teams collaborate with legal and security to define clear purposes, expiration timelines, and deletion workflows. Engineers implement technical controls such as field-level encryption, redaction, and retention policies. Adoption of data minimization reduces breach impact, compliance risk, and model bias stemming from unnecessary sensitive attributes. Documenting minimization choices is also a prerequisite for privacy impact assessments and external audits.
+- legal
+- policy
+- product
+- security
+part_of_speech: concept
+short_def: Principle of collecting and retaining only the data necessary for a defined
+  purpose.
+long_def: Data minimization limits the amount and duration of personal data collected,
+  processed, or stored. Regulations such as GDPR and CCPA mandate this principle so
+  organizations cannot hoard information “just in case.” In AI projects, minimization
+  applies to training datasets, prompt logs, telemetry, and derived embeddings. Product
+  teams collaborate with legal and security to define clear purposes, expiration timelines,
+  and deletion workflows. Engineers implement technical controls such as field-level
+  encryption, redaction, and retention policies. Adoption of data minimization reduces
+  breach impact, compliance risk, and model bias stemming from unnecessary sensitive
+  attributes. Documenting minimization choices is also a prerequisite for privacy
+  impact assessments and external audits.
 audiences:
-  exec: "Data minimization keeps us from collecting more personal information than we need, reducing risk."
-  engineer: "Implement least-data pipelines, redact sensitive fields, and enforce retention limits that map to documented business purposes."
+  exec: Data minimization keeps us from collecting more personal information than
+    we need, reducing risk.
+  engineer: Implement least-data pipelines, redact sensitive fields, and enforce retention
+    limits that map to documented business purposes.
 examples:
   do:
-    - "Align prompts and telemetry retention with published privacy notices."
-    - "Automate deletion of training data that no longer supports the model’s purpose."
+  - Align prompts and telemetry retention with published privacy notices.
+  - Automate deletion of training data that no longer supports the model’s purpose.
   dont:
-    - "Copy entire databases into model pipelines without reviewing necessity."
-    - "Keep user data after opt-outs or contract end dates."
+  - Copy entire databases into model pipelines without reviewing necessity.
+  - Keep user data after opt-outs or contract end dates.
 governance:
   nist_rmf_tags:
-    - "privacy"
-    - "risk_management"
-  risk_notes: "Excess data increases breach exposure, drives regulatory penalties, and can introduce bias into models."
+  - privacy
+  - risk_management
+  risk_notes: Excess data increases breach exposure, drives regulatory penalties,
+    and can introduce bias into models.
 relationships:
   broader:
-    - "privacy"
+  - privacy
   related:
-    - "privacy impact assessment"
-    - "differential privacy"
-    - "incident response"
+  - privacy impact assessment
+  - differential privacy
+  - incident response
 citations:
-  - source: "NIST AI RMF Glossary"
-    url: "https://www.nist.gov/itl/ai-risk-management-framework"
-  - source: "ICO – Data Minimisation Principle"
-    url: "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/8-data-minimisation/"
-  - source: "Stanford HAI Brief Definitions"
-    url: "https://hai.stanford.edu/news/brief-definitions"
-license: "CC BY-SA 4.0"
-status: "approved"
-last_reviewed: "2025-09-29"
+- source: NIST AI RMF Glossary
+  url: https://www.nist.gov/itl/ai-risk-management-framework
+- source: ICO – Data Minimisation Principle
+  url: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/8-data-minimisation/
+- source: Stanford HAI Brief Definitions
+  url: https://hai.stanford.edu/news/brief-definitions
+license: CC BY-SA 4.0
+status: approved
+last_reviewed: '2025-10-10'

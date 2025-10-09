@@ -1,0 +1,42 @@
+term: "prompt registry"
+aliases:
+  - "prompt catalog"
+categories:
+  - "Operations & Monitoring"
+roles:
+  - "product"
+  - "engineering"
+  - "policy"
+  - "legal"
+part_of_speech: "concept"
+short_def: "Central system that versions, reviews, and distributes approved prompts for LLM-powered experiences."
+long_def: >-
+  A prompt registry is the single source of truth for every prompt, system instruction, and guardrail template an organisation deploys. It tracks versions, metadata, owners, evaluation scores, and rollout status so changes can be audited and rolled back just like code. Product teams use the registry to request updates, tag prompts to specific surfaces, and ensure customer experiences stay consistent across channels. Engineers integrate the registry with CI/CD to promote prompts through staging, automated evaluation, and canary release gates before they reach production. Compliance and policy partners review prompt diffs, attach risk classifications, and confirm that usage policies or legal disclosures are embedded. Without a registry, prompts proliferate in notebooks or dashboards, making it impossible to understand what instructions are live, who approved them, or how to restore a prior state after an incident. Treating prompts as first-class configuration managed in a registry brings governance, observability, and collaboration to agent and LLM operations.
+audiences:
+  exec: "Assures leadership that customer-facing prompts have approvals, audit trails, and fast rollback if policy changes."
+  engineer: "Automate promotion, evaluation, and rollback workflows so every prompt change is reproducible and observable."
+examples:
+  do:
+    - "Require pull-request style reviews on prompt entries and block promotion until safety evaluations pass."
+  dont:
+    - "Copy prompts into scripts by hand, bypassing the registry when hot-fixing production issues."
+governance:
+  nist_rmf_tags:
+    - "accountability"
+    - "documentation"
+  risk_notes: "Shadow prompts erode provenance, hide policy violations, and make it impossible to respond quickly to incidents or audits."
+relationships:
+  broader:
+    - "ml ops"
+  related:
+    - "prompt engineering"
+    - "model governance"
+    - "evaluation harness"
+citations:
+  - source: "Google Cloud – Prompt Management for Enterprise AI"
+    url: "https://cloud.google.com/blog/products/ai-machine-learning/prompt-management-for-enterprise-ai"
+  - source: "PromptOps: Operationalizing LLM Systems"
+    url: "https://arxiv.org/abs/2402.09902"
+license: "CC BY-SA 4.0"
+status: "approved"
+last_reviewed: "2025-10-10"

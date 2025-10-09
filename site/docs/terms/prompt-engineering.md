@@ -8,7 +8,7 @@
 **Categories:** LLM Core
 **Roles:** Data Science & Research, Engineering & Platform, Product & Program Managers
 **Part of speech:** `process`
-**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-09-29)
+**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-10-10)
 
 !!! tip "Put it into practice"
     Dive into the [Prompt Engineering Playbook](../prompting.md) for workflows and checklists.

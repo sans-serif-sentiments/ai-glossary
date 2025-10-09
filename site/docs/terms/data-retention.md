@@ -8,7 +8,7 @@
 **Categories:** Governance & Risk
 **Roles:** Legal & Compliance, Policy & Risk, Security & Trust, Product & Program Managers
 **Part of speech:** `process`
-**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-09-29)
+**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-10-10)
 
 !!! tip "Put it into practice"
     Map retention updates to the [Governance Dashboard](../governance-dashboard.md).
