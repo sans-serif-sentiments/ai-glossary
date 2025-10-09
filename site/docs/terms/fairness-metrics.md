@@ -8,7 +8,7 @@
 **Categories:** Governance & Risk, Operations & Monitoring
 **Roles:** Policy & Risk, Legal & Compliance, Engineering & Platform, Product & Program Managers
 **Part of speech:** `noun`
-**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-10-10)
+**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-10-09)
 
 !!! tip "Put it into practice"
     Coordinate with the [Role Starter Packs](../roles.md#policy--risk) for governance actions.

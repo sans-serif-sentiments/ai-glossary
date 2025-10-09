@@ -4,10 +4,47 @@ site_url: https://san-serif-sentiments.github.io/ai-glossary
 site_dir: site_build
 repo_url: https://github.com/san-serif-sentiments/ai-glossary
 repo_name: san-serif-sentiments/ai-glossary
-copyright: "© 2024 AI Glossary contributors"
+copyright: "© 2025 AI Glossary contributors"
 
 theme:
   name: material
+  language: en
+  font:
+    text: Inter
+    code: "JetBrains Mono"
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.path
+    - navigation.top
+    - navigation.tabs
+    - navigation.footer
+    - navigation.tracking
+    - toc.integrate
+    - toc.follow
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    - content.action.edit
+    - search.highlight
+    - search.suggest
+    - search.share
+  palette:
+    - scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    logo: material/book-outline
+    favicon: material/book-outline
 
 extra:
   social:
@@ -152,19 +189,6 @@ nav:
       - Keyword Backlog: keyword-backlog.md
       - Term Request Intake: term-request.md
 
-theme:
-  name: material
-  features:
-    - navigation.tracking
-    - content.action.edit
-    - toc.integrate
-  palette:
-    - scheme: default
-      primary: blue
-      accent: deep orange
-  icon:
-    logo: material/book-outline
-
 plugins:
   - search
 
@@ -176,10 +200,5 @@ markdown_extensions:
   - tables
   - pymdownx.superfences
 
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/san-serif-sentiments/ai-glossary
-      name: GitHub
 extra_css:
   - styles.css

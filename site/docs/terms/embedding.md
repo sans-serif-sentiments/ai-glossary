@@ -8,7 +8,7 @@
 **Categories:** Retrieval & RAG
 **Roles:** Data Science & Research, Engineering & Platform, Product & Program Managers
 **Part of speech:** `noun`
-**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-10-10)
+**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-10-09)
 
 ## Role takeaways
 - **Data Science & Research:** Incorporate the metric or method into evaluation pipelines.

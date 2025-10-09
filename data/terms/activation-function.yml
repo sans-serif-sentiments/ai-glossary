@@ -1,41 +1,59 @@
-term: "activation function"
+term: activation function
 aliases:
-  - "nonlinearity"
+- nonlinearity
 categories:
-  - "Foundations"
+- Foundations
 roles:
-  - "data_science"
-  - "engineering"
-  - "product"
-part_of_speech: "concept"
-short_def: "Mathematical transformation applied to a neuron’s weighted sum that lets neural networks model nonlinear relationships and control signal range."
-long_def: >-
-  Activation functions are the nonlinear transformations applied to each neuron’s weighted sum before it flows to the next layer. By shaping the signal—through functions like ReLU, GELU, or sigmoid—they let neural networks approximate nonlinear decision boundaries, regulate gradient flow, and cap output ranges for probabilistic tasks. Engineers select activations that keep gradients stable during backpropagation, minimise vanishing or exploding values, and align with hardware constraints. Data scientists evaluate choices empirically because the same architecture can converge faster or generalise better when paired with an activation that matches the distribution of features. Product teams experience the impact in training throughput, latency, and quality metrics that show up in customer-facing capabilities. Governance and safety partners care because misconfigured activations can cause brittle behaviour, numerical overflow, or fairness regressions that invalidate evaluation baselines. Maintaining a documented activation strategy, paired with tests that watch for saturation or drift when models are retrained, keeps optimisation explainable and reproducible.
+- data_science
+- engineering
+- product
+part_of_speech: concept
+short_def: Mathematical transformation applied to a neuron’s weighted sum that lets
+  neural networks model nonlinear relationships and control signal range.
+long_def: Activation functions are the nonlinear transformations applied to each neuron’s
+  weighted sum before it flows to the next layer. By shaping the signal—through functions
+  like ReLU, GELU, or sigmoid—they let neural networks approximate nonlinear decision
+  boundaries, regulate gradient flow, and cap output ranges for probabilistic tasks.
+  Engineers select activations that keep gradients stable during backpropagation,
+  minimise vanishing or exploding values, and align with hardware constraints. Data
+  scientists evaluate choices empirically because the same architecture can converge
+  faster or generalise better when paired with an activation that matches the distribution
+  of features. Product teams experience the impact in training throughput, latency,
+  and quality metrics that show up in customer-facing capabilities. Governance and
+  safety partners care because misconfigured activations can cause brittle behaviour,
+  numerical overflow, or fairness regressions that invalidate evaluation baselines.
+  Maintaining a documented activation strategy, paired with tests that watch for saturation
+  or drift when models are retrained, keeps optimisation explainable and reproducible.
 audiences:
-  exec: "Signals whether the model can keep improving accuracy without destabilising costs or violating quality guardrails."
-  engineer: "Choose activations that maintain gradient health, are supported by deployment hardware, and have regression tests for saturation."
+  exec: Signals whether the model can keep improving accuracy without destabilising
+    costs or violating quality guardrails.
+  engineer: Choose activations that maintain gradient health, are supported by deployment
+    hardware, and have regression tests for saturation.
 examples:
   do:
-    - "Run ablation tests comparing ReLU, GELU, and SiLU to confirm which activation delivers the best loss convergence on production data."
+  - Run ablation tests comparing ReLU, GELU, and SiLU to confirm which activation
+    delivers the best loss convergence on production data.
   dont:
-    - "Ship a new activation into production without checking for output range shifts that could break downstream calibration."
+  - Ship a new activation into production without checking for output range shifts
+    that could break downstream calibration.
 governance:
   nist_rmf_tags:
-    - "validity"
-    - "reliability"
-  risk_notes: "Unvetted activations can destabilise training, overflow numeric ranges, or skew evaluation metrics, undermining claims about model quality."
+  - validity
+  - reliability
+  risk_notes: Unvetted activations can destabilise training, overflow numeric ranges,
+    or skew evaluation metrics, undermining claims about model quality.
 relationships:
   broader:
-    - "model architecture"
+  - model architecture
   related:
-    - "gradient descent"
-    - "loss function"
-    - "regularization"
+  - gradient descent
+  - loss function
+  - regularization
 citations:
-  - source: "CS231n – Activation Functions"
-    url: "https://cs231n.github.io/neural-networks-1/#actfun"
-  - source: "PyTorch Documentation – Non-linear Activations"
-    url: "https://docs.pytorch.org/docs/stable/nn.html"
-license: "CC BY-SA 4.0"
-status: "approved"
-last_reviewed: "2025-10-10"
+- source: CS231n – Activation Functions
+  url: https://cs231n.github.io/neural-networks-1/#actfun
+- source: PyTorch Documentation – Non-linear Activations
+  url: https://docs.pytorch.org/docs/stable/nn.html
+license: CC BY-SA 4.0
+status: approved
+last_reviewed: '2025-10-09'

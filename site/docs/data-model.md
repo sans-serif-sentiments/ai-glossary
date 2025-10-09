@@ -41,7 +41,7 @@ citations:
     url: "https://example.com"
 license: "CC BY-SA 4.0"
 status: "draft"
-last_reviewed: "2025-10-10"
+last_reviewed: "2025-10-09"
 ```
 
 ## Validation rules

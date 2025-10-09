@@ -8,7 +8,7 @@
 **Categories:** Optimization & Efficiency
 **Roles:** Engineering & Platform, Data Science & Research, Product & Program Managers
 **Part of speech:** `concept`
-**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-10-10)
+**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-10-09)
 
 ## Role takeaways
 - **Engineering & Platform:** Document implementation requirements and operational caveats.

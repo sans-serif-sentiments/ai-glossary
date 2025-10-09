@@ -8,7 +8,7 @@
 **Categories:** Agents & Tooling
 **Roles:** Product & Program Managers, Engineering & Platform, Security & Trust
 **Part of speech:** `concept`
-**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-10-10)
+**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-10-09)
 
 ## Role takeaways
 - **Product & Program Managers:** Translate this concept into user impact and rollout plans.

@@ -7,6 +7,7 @@ site/site/
 models/
 site/models/
 .DS_Store
+.lycheecache
 
 # MkDocs build output
 site/site_build/

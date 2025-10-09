@@ -8,7 +8,7 @@
 **Categories:** Agents & Tooling
 **Roles:** Engineering & Platform, Product & Program Managers
 **Part of speech:** `process`
-**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-10-10)
+**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-10-09)
 
 ## Role takeaways
 - **Engineering & Platform:** Document implementation requirements and operational caveats.

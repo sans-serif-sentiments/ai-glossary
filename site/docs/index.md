@@ -12,22 +12,40 @@
       <span class="brand-name">Shailesh Rawat</span>
       <span class="brand-handle">@sans_serif_sentiments</span>
     </a>
-  </div>
+</div>
 
-  <div class="hero-actions">
-    <a class="cta" href="search/index.html">🔍 Explore the interactive search</a>
-    <a class="cta secondary" href="roles/index.html">👥 Role starter packs</a>
-    <a class="cta secondary" href="categories/index.html">🧭 Category explorer</a>
+<div class="hero-actions">
+  <a class="cta" href="search/index.html">🔍 Explore the interactive search</a>
+  <a class="cta secondary" href="roles/index.html">👥 Role starter packs</a>
+  <a class="cta secondary" href="categories/index.html">🧭 Category explorer</a>
+</div>
+</div>
+
+<div class="stats-grid">
+  <div class="stat-card">
+    <span class="meta-label">Glossary coverage</span>
+    <h2>112 terms</h2>
+    <p>Each entry is citation-backed, YAML-first, and ready for review workflows.</p>
+  </div>
+  <div class="stat-card">
+    <span class="meta-label">Governance depth</span>
+    <h2>42 controls</h2>
+    <p>Focused on assurance, privacy, safety, and audit obligations for AI programs.</p>
+  </div>
+  <div class="stat-card">
+    <span class="meta-label">Role guidance</span>
+    <h2>6 partner teams</h2>
+    <p>Product, engineering, data, policy, legal, and security all receive tailored takeaways.</p>
   </div>
 </div>
 
-## What's new (Sep 28 2025)
+## What's new (Oct 09 2025)
 
 <div class="whats-new">
   <ul>
-    <li><strong>Lifecycle snapshot:</strong> Search now surfaces status counts and the latest review date so teams can see glossary health at a glance.</li>
-    <li><strong>100-term milestone:</strong> Added new entries spanning assurance cases, RLHF workflows, and safety controls to push the glossary past one hundred vetted terms.</li>
-    <li><strong>Sort for relevance:</strong> Reorder results by freshness or category to share curated views with stakeholders in seconds.</li>
+    <li><strong>Refreshed navigation:</strong> quick-access stats, sticky navigation, and dark mode improve the browsing experience on desktop and mobile.</li>
+    <li><strong>Current review dates:</strong> every term and dashboard metric is validated as of Oct&nbsp;09&nbsp;2025 for audit-ready traceability.</li>
+    <li><strong>Governance insights:</strong> the dashboard now surfaces risk coverage cards and actionable intake guidance for policy partners.</li>
   </ul>
   <p class="whats-new-footer">
     Submit feedback or new term ideas via the <a href="term-request/index.html">term request intake</a>.
@@ -53,6 +71,11 @@
 - [External source catalog](resources.md) — official glossaries and standards to cite.
 - [Governance dashboard](governance-dashboard.md) — metrics, NIST coverage, and intake guidance.
 - [Prompt engineering playbook](prompting.md) — practical workflows for shaping model behaviour.
+
+??? tip "Need a fast orientation?"
+    - Start with the **role starter packs** to see the glossary through stakeholder lenses.
+    - Use the **interactive search** to filter by status, category, or review freshness.
+    - Link YAML entries directly into internal tooling—the schema is stable and versioned.
 
 ### Popular categories
 

@@ -8,7 +8,7 @@
 **Categories:** Retrieval & RAG
 **Roles:** Communications & Enablement, Data Science & Research, Product & Program Managers, Security & Trust, Engineering & Platform, Policy & Risk
 **Part of speech:** `process`
-**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-10-10)
+**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-10-09)
 
 ## Role takeaways
 - **Communications & Enablement:** Align messaging, FAQs, and enablement materials using this definition.
